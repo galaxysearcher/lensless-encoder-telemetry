@@ -1,0 +1,72 @@
+{
+  "title": "Synthetic Physical Encoder Demo",
+  "status": "PASS_SYNTHETIC_DEMO",
+  "headline": {
+    "n_samples": 512,
+    "n_features": 24,
+    "r2": 0.9866,
+    "mae": 0.0674,
+    "normalized_mae": 0.0179
+  },
+  "abstention_curve": [
+    {
+      "threshold": 0.0,
+      "coverage": 1.0,
+      "mean_loss_when_kept": 0.06735784820331535
+    },
+    {
+      "threshold": 0.1,
+      "coverage": 1.0,
+      "mean_loss_when_kept": 0.06735784820331535
+    },
+    {
+      "threshold": 0.2,
+      "coverage": 1.0,
+      "mean_loss_when_kept": 0.06735784820331535
+    },
+    {
+      "threshold": 0.30000000000000004,
+      "coverage": 1.0,
+      "mean_loss_when_kept": 0.06735784820331535
+    },
+    {
+      "threshold": 0.4,
+      "coverage": 1.0,
+      "mean_loss_when_kept": 0.06735784820331535
+    },
+    {
+      "threshold": 0.5,
+      "coverage": 1.0,
+      "mean_loss_when_kept": 0.06735784820331535
+    },
+    {
+      "threshold": 0.6000000000000001,
+      "coverage": 1.0,
+      "mean_loss_when_kept": 0.06735784820331535
+    },
+    {
+      "threshold": 0.7000000000000001,
+      "coverage": 1.0,
+      "mean_loss_when_kept": 0.06735784820331535
+    },
+    {
+      "threshold": 0.8,
+      "coverage": 0.9545454545454546,
+      "mean_loss_when_kept": 0.06116769344100866
+    },
+    {
+      "threshold": 0.9,
+      "coverage": 0.6948051948051948,
+      "mean_loss_when_kept": 0.03747319245809908
+    },
+    {
+      "threshold": 1.0,
+      "coverage": 0.0,
+      "mean_loss_when_kept": null
+    }
+  ],
+  "scope_notes": [
+    "Synthetic data exercises the software path.",
+    "Physical encoder validation requires optical measurements and experimental controls."
+  ]
+}

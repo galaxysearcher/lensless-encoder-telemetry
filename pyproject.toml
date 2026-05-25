@@ -1,0 +1,10 @@
+[project]
+name = "lensless-encoder-telemetry"
+version = "0.1.0"
+description = "Validation-first utilities for lensless optical encoder telemetry experiments."
+requires-python = ">=3.10"
+dependencies = ["numpy", "pillow", "scikit-learn"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]

@@ -1,0 +1,20 @@
+{
+  "status": "DATA_STACK_READY_FOR_PAIRING_EXPERIMENTS",
+  "waller_lensless_imaging": {
+    "gt2dc_registered_targets": 25000,
+    "gt2rml_registered_targets": 25000,
+    "shared_image_ids": 25000,
+    "psf_tiff_files": 199,
+    "homography_matrices": 8,
+    "next_step": "pair Diffuser lensless input measurements with GT2DC targets"
+  },
+  "idtoolkit_proxy": {
+    "csv_files": 3882,
+    "folders": [
+      "color_filter",
+      "multilayer",
+      "TPV"
+    ],
+    "use": "adapter development, schema checks, and response-generalization tests"
+  }
+}

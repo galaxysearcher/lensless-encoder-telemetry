@@ -1,0 +1,8 @@
+{
+  "demo_name": "synthetic_physical_encoder",
+  "n_samples": 512,
+  "latent_state_dimensions": 3,
+  "encoded_feature_dimensions": 24,
+  "random_seed": 7,
+  "purpose": "Small runnable demo for validation workflow only."
+}
